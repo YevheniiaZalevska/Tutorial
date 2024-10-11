@@ -2,7 +2,7 @@ document.getElementById('myButton').addEventListener('click', function() {
   const popup = document.getElementById('popup');
   const popupText = document.querySelector('#popup').innerText;
 
-  console.log('Текст внутри блока popup: ', popupText);  
+  console.log(popupText);  
 
   popup.classList.remove('hidden');
 
