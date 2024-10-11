@@ -79,3 +79,28 @@ ody {
     height: auto;
     display: block;
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* Расположит квадраты с равными промежутками */
+}
+
+.box {
+    width: 100px;
+    /* Ширина квадрата */
+    height: 100px;
+    /* Высота квадрата */
+}
+
+.box[data-color="red"] {
+    background-color: red;
+}
+
+.box[data-color="black"] {
+    background-color: black;
+}
+
+.box[data-color="green"] {
+    background-color: green;
+}
